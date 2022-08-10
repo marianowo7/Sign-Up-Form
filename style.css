@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    object-fit: fill;
+    color: #000;
+    font-family:sans-serif;
+    height: 100%;
+}
+
+#img {
+width: 40%;   
+min-height: 100%;
+
+
+}   
+
+#fh {
+    height: 1000px;
+    width:60vw;
+    padding: 120px;
+    padding-top: 65px;
+}
+
+#form {
+    display: flex;
+    gap: 40px ;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 120px;
+}
+
+label.truncate {
+    width:150px;
+    font-size: 20px;
+}
+
+
+label, input {
+    display:block;
+    color: hsl(215deg 27% 18%);
+    font-weight: bold;
+}
+
+input[type=text], input[type=email],input[type=number], input[type=password] {
+    height: 15px;
+    padding: 5px; 
+    border-radius: 5px;
+    
+}
+
+h3, h2 {
+    color: hsl(215deg 27% 18%);
+    width: 85%;
+}
+
+h2 {
+    padding-top: 50px; ;
+}
+
+input:hover {
+    border: 1px solid lightskyblue;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
+    border: 1px solid green;
+}
+
+button {
+    background-color: #114f73;
+    color: white;
+    border: 0px;
+    height: 45px;
+    width: 224px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
